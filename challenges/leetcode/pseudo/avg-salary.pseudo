@@ -1,0 +1,10 @@
+function average(salary:[]) {
+    sort(salary)
+    set sum = 0
+    set count = 0
+    for (i = 1; i < salary.size(); i++) {
+        sum += salary[i]
+        count += 1
+    }
+    return sum / count
+}
